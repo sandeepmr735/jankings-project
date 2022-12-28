@@ -1,0 +1,30 @@
+# Java Web Application
+
+Let's learn how to build Web Application in Java.
+
+
+#### Prerequisites
+
+- Any JDK (e.g. OpenJDK 11).
+- Maven 3.6.x
+- IDE (IntelliJ / Eclipse / Visual Studio Code).
+
+
+#### Sample Project
+
+Start with https://start.spring.io/[Spring Initializr].
+
+image::images/spring-initializr.png[spring-initializr screenshot]
+
+
+#### Run covid-19-bangladesh Application
+
+```
+$ cd java-web-application/covid-19-bangladesh
+$ mvn spring-boot:run -Dspring-boot.run.arguments="--eureka.client.enabled=false"
+```
+
+```
+# Try it on browser
+http://localhost:8080/bangladesh
+```
